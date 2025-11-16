@@ -1,0 +1,127 @@
+.pg-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.pg-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pg-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.pg-options button {
+  padding: 10px 20px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pg-options .active {
+  background: #4CAF50;
+  color: white;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+/* input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+} */
+
+.pg-container input,
+.pg-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pg-container .section button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pg-container .back-btn {
+  background: grey;
+}
+
+.feedback-box, .question-box {
+  background: #f4f4f4;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.username {
+  text-align: right;
+  font-style: italic;
+  color: #555;
+}
+
+.answer {
+  background: #fff;
+  padding: 10px;
+  border-left: 3px solid green;
+  margin-top: 10px;
+}
+.back-btn {
+  background:grey;
+  color: white;
+  border: none;
+  padding: 4px 8px;     
+  font-size: 0.7rem;    
+  border-radius: 4px;   
+  cursor: pointer;
+  font-weight: bold;
+
+  width: 150px;          
+  height: 50px;         
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+
+.back-btn:hover {
+  background: grey;
+}
+
+.delete-btn {
+  background: #ff4444;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: 0.3s;
+  width: auto;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
