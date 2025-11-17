@@ -213,7 +213,7 @@ app.post("/api/pg/questions/:id/answer", async (req, res) => {
     const { id } = req.params;
     const { answer, answeredBy } = req.body;
     
-    console.log(`💬 Adding answer to question ${id} by ${answeredBy}`);
+    console.log(`Adding Answer to Question ${id} by ${answeredBy}`);
     
     const question = await Question.findByIdAndUpdate(
       id,
@@ -239,7 +239,7 @@ app.delete("/api/pg/questions/:id", async (req, res) => {
     const { id } = req.params;
     const { username } = req.body;
     
-    console.log(`🗑️ DELETE question ${id} by ${username}`);
+    console.log(`DELETE Question ${id} by ${username}`);
     
     const question = await Question.findById(id);
     
